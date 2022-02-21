@@ -11,14 +11,15 @@ body {
 /* Header/logo Title */
 .header {
   padding: 80px;
-  text-align: center;
-  background: #1abc9c;
+  text-align: left;
+  background-image: url("img/headerbgimg.png");
   color: white;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 40px;
+  font-size: 60px;
+  font-family: "Aldrich";
 }
 
 /* Style the top navigation bar */
@@ -35,6 +36,12 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+}
+
+.navbar p {
+  color: white;
+  text-align: left;
+  margin-left: 5%;
 }
 
 /* Right-aligned link */
