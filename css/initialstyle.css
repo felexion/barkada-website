@@ -12,14 +12,17 @@ body {
 .header {
   padding: 80px;
   text-align: center;
+<<<<<<< HEAD
   background-image: url("img/headerbgimg.png");
+=======
+  background: #1abc9c;
+>>>>>>> parent of 80bb58b (Gradient header bg and new navbar)
   color: white;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  font-size: 60px;
-  font-family: "Aldrich";
+  font-size: 40px;
 }
 
 /* Style the top navigation bar */
@@ -56,11 +59,14 @@ body {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .navbar p {
   color: white;
   text-align: center;
 }
 
+=======
+>>>>>>> parent of 80bb58b (Gradient header bg and new navbar)
 /* Right-aligned link */
 .navbar a.right {
   float: right;
