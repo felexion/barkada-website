@@ -11,7 +11,7 @@ body {
 /* Header/logo Title */
 .header {
   padding: 80px;
-  text-align: left;
+  text-align: center;
   background-image: url("img/headerbgimg.png");
   color: white;
 }
@@ -23,9 +23,27 @@ body {
 }
 
 /* Style the top navigation bar */
+.left {
+  float: left;
+  font-family: "Aldrich";
+  font-size: 23px;
+  margin: 10px 10px;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+}
+
+/* Style the navbar welcome */
+.welcome {
+  overflow: hidden;
+  background-color: #333;
+  
 }
 
 /* Style the navigation bar links */
@@ -40,8 +58,7 @@ body {
 
 .navbar p {
   color: white;
-  text-align: left;
-  margin-left: 5%;
+  text-align: center;
 }
 
 /* Right-aligned link */
@@ -49,6 +66,12 @@ body {
   float: right;
 }
 
+.active {
+  margin: 3px;
+  border-radius: 4px;
+  background-color: #ddd;
+  color: black !important;
+}
 /* Change color on hover */
 .navbar a:hover {
   background-color: #ddd;
